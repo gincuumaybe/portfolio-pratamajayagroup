@@ -21,7 +21,7 @@
                 </li>
 
                 <li class="nav-item mx-4">
-                    <a class="nav-link" href="/testimoni">Testimoni</a>
+                    <a class="nav-link" href="#review">Testimoni</a>
                 </li>
 
                 <li class="nav-item mx-4">
