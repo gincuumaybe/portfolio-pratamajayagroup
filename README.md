@@ -44,10 +44,10 @@ Before running the project, ensure your system meets the following requirements:
 
 ```bash
 # 1. Clone repository
-git clone https://github.com/yourusername/company-profile-pratamajayagroup.git
+git clone https://github.com/yourusername/portfolio-pratamajayagroup.git
 
 # 2. Navigate into the project directory
-cd company-profile-pratamajayagroup
+cd portfolio-pratamajayagroup
 
 # 3. Install dependencies
 composer install
