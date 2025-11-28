@@ -1,7 +1,8 @@
 <nav class="navbar navbar-expand-lg bg-light custom-text sticky-top">
     <div class="container">
         <a class="navbar-brand d-flex align-items-center" href="#">
-            <img src="/images/Logo1.png" alt="Logo" width="50" height="50" class="me-3">
+            <img src="{{ asset('images/logo1.png') }}" alt="Logo" width="50" height="50"
+                class="me-3">
             <span>PRATAMA JAYA GROUP</span>
         </a>
 

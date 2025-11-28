@@ -167,7 +167,7 @@
 
     <footer class="site-footer">
         <div class="footer-logo">
-            <img src="{{ Vite::asset('resources/images/logo1.png') }}" alt="Logo" width="50" height="50">
+            <img src="{{ asset('images/logo1.png') }}" alt="Logo" width="50" height="50">
             <span>Pratama Jaya Group</span>
         </div>
     </footer>
