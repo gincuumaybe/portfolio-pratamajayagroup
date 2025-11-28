@@ -5,9 +5,9 @@
 
 ## 📌 About The Project
 
-This project was developed as a **branding and digital presence platform** for **PT Pratama Jaya Group**, a company focused on **air conditioning service, installation, and maintenance**.
+This project was developed as a freelance assignment for PT Pratama Jaya Group, a company specializing in air conditioning service, installation, and maintenance.
 
-The website is designed to help potential customers learn about available services and easily reach out to the company.
+The goal of this website is to support the company's branding and digital presence, allowing potential customers to easily explore available services and get in touch for inquiries.
 
 ---
 
