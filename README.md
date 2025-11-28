@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="300" alt="Laravel Logo">
-</p>
-
 <h2 align="center">AC Service Portfolio</h2>
 <p align="center">A portfolio website built for PT Pratama Jaya Group</p>
 
@@ -34,34 +30,42 @@ The website is designed to help potential customers learn about available servic
 
 | Category | Used Technology |
 |----------|----------------|
+| Language | PHP 8 |
 | Framework | Laravel 10 |
 | Frontend | Bootstrap |
-| Deployment Target | Vercel (planned) |
+| Deployment | Vercel |
 
 ---
 
-## 👨‍💻 Role & Development
+## 🧰 Installation & Setup
 
-- **Role:** Fullstack (Frontend-focused)  
-- **Duration:** ~1.5 months  
-- **Status:** Finished  
-- **License:** Private Project  
+Ensure your environment meets the following requirements:
 
----
+- **PHP 8+**
+- **Composer**
+- **Laravel CLI**
+- (Optional) **MySQL or SQLite**
 
-## 📦 Deployment (Planned)
+### 🛠️ Setup Steps
 
-Project is targeted to be deployed using **Vercel** hosting.
+```bash
+# 1. Clone repository
+git clone https://github.com/yourusername/repository-name.git
 
----
+# 2. Navigate into project folder
+cd repository-name
 
-## 📩 Contact
+# 3. Install dependencies using Composer
+composer install
 
-For collaboration or freelance inquiries:
+# 4. Copy environment file
+cp .env.example .env
 
-> _Your Name_  
-> 📧 email@email.com  
-> 💼 (Optional: LinkedIn/Portfolio)
+# 5. Generate application key
+php artisan key:generate
 
----
+# 6. Migrate database (only if database is used in project)
+php artisan migrate
 
+# 7. Run the development server
+php artisan serve
