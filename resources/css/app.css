@@ -24,6 +24,20 @@
     }
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    scroll-margin-top: 5rem; /* sesuaikan tinggi navbar */
+}
+
+@media (max-width: 768px) {
+    section {
+        scroll-margin-top: 250px;
+    }
+}
+
 .custom-text .navbar-brand,
 .custom-text .navbar-brand span {
     color: #004580;
@@ -43,10 +57,6 @@
     color: #ec6206;
 }
 
-#navbarNav .nav-link.active {
-    color: #ec6206 !important;
-}
-
 #navbarNav .nav-link.contact-btn {
     color: #ffffff !important;
     background-color: #ffa722;
@@ -60,6 +70,15 @@
 #navbarNav .nav-link.contact-btn:hover {
     background-color: #e5941e;
     text-decoration: none;
+}
+
+#navbarNav .nav-link.contact-btn.active {
+    background-color: #e5941e !important;
+    color: #004580 !important;
+}
+
+#navbarNav .nav-link.active {
+    color: #ec6206 !important;
 }
 
 #home {
@@ -195,7 +214,6 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 2rem;
-    margin-top: 2rem;
 }
 
 .item-boxes2 {
@@ -252,10 +270,10 @@
     /* Item boxes */
     .item-boxes1,
     .item-boxes2 {
-        width: 50%; /* lebar hampir full screen */
-        height: auto; /* tinggi menyesuaikan konten */
+        width: 50%;
+        height: auto;
         padding: 1rem;
-        border-radius: 25px; /* lebih proporsional di mobile */
+        border-radius: 25px;
     }
 
     /* Item number */

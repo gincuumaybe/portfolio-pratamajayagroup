@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg bg-light custom-text">
+<nav class="navbar navbar-expand-lg bg-light custom-text sticky-top">
     <div class="container">
         <a class="navbar-brand d-flex align-items-center" href="#">
             <img src="/images/Logo1.png" alt="Logo" width="50" height="50" class="me-3">
@@ -13,7 +13,7 @@
             <ul class="navbar-nav ms-auto">
 
                 <li class="nav-item mx-4">
-                    <a class="nav-link {{ request()->is('/') ? 'active' : '' }}" href="#home">Home</a>
+                    <a class="nav-link" href="#home">Home</a>
                 </li>
 
                 <li class="nav-item mx-4">
