@@ -11,12 +11,6 @@ The website functions as a digital **company profile** designed to strengthen th
 
 ---
 
-## 🎯 Target Users
-
-- **Individuals or businesses looking for AC installation or maintenance services**
-
----
-
 ## 🚀 Features
 
 - 🏠 Home Page  
