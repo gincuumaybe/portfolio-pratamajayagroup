@@ -1,4 +1,13 @@
 {
+  "resources/css/app.css": {
+    "file": "assets/app-DpufL7yt.css",
+    "src": "resources/css/app.css",
+    "isEntry": true,
+    "name": "app",
+    "names": [
+      "app.css"
+    ]
+  },
   "resources/images/home1.jpeg": {
     "file": "assets/home1-C5V4xrvD.jpeg",
     "src": "resources/images/home1.jpeg"
@@ -32,14 +41,9 @@
     "src": "resources/images/testi33.jpg"
   },
   "resources/js/app.js": {
-    "file": "assets/app-BwhXoHKE.js",
+    "file": "assets/app-Cj6ktIgB.js",
     "name": "app",
     "src": "resources/js/app.js",
-    "isEntry": true
-  },
-  "resources/sass/app.scss": {
-    "file": "assets/app-CuooPjQU.css",
-    "src": "resources/sass/app.scss",
     "isEntry": true
   }
 }
