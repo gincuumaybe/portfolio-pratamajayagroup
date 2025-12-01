@@ -380,11 +380,14 @@ section {
     padding: 1.5rem 2rem;
     gap: 1rem;
     border-radius: 25px;
+    text-decoration: none; /* hilangkan garis bawah default a */
+    color: inherit; /* pertahankan warna teks */
     font-family: "Poppins", sans-serif;
     font-size: 2rem;
     transition: 0.3s ease;
     width: 250px;
     max-width: 100%;
+    cursor: pointer; /* biar keliatan klikable */
 }
 
 .about-us-social .social-card:hover {
@@ -408,18 +411,6 @@ section {
     font-size: 1.5rem;
 }
 
-.about-us-social .phone {
-    color: white;
-    text-decoration: none;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: 0.3s ease;
-}
-
-.about-us-social .phone:hover {
-    color: #ec6207;
-    text-decoration: underline;
-}
 
 /* ===== Responsive ===== */
 @media (max-width: 768px) {
@@ -431,10 +422,13 @@ section {
     .about-us-social .social-card {
         width: 90%;
         font-size: 1.5rem;
+        cursor: pointer; /* indikator klikable */
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
     }
 
-    .about-us-social .phone {
-        font-size: 1rem;
+    .about-us-social .social-card:active {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     }
 }
 
