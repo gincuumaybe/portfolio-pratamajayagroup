@@ -4,6 +4,7 @@
 ---
 
 ## 📌 About The Project
+![image alt](https://github.com/gincuumaybe/portfolio-pratamajayagroup/blob/02547d121040342857924f06cc2beeeaaf9eed50/pratamajayagroup.png)
 
 This project was developed as a **freelance work** for **PT Pratama Jaya Group**, a company specializing in **air conditioning services, installation, and maintenance**.
 
